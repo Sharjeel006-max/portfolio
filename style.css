@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+body {
+    background: #1a1a1a; /* Dark gray background */
+    color: #e0e0e0; /* Light gray text */
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2rem 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: top 0.3s ease;
+}
+
+.logo {
+    font-size: 2.9rem;
+    color: #ffcc00; /* Yellow accent color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: #ffcc00; /* Yellow accent color */
+    text-decoration: none;
+    margin: 0 2.5rem;
+    transition: .5s ease;
+}
+
+.navbar a:hover {
+    color: #ff8000; /* Darker orange on hover */
+}
+
+#menu {
+    font-size: 3rem;
+    color: #ffcc00;
+    cursor: pointer;
+    display: none;
+}
+
+.home {
+    padding: 10rem 9% 2rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content h1 {
+    font-size: 5rem;
+    color: #ffcc00; /* Yellow accent color */
+    font-weight: 600;
+}
+
+.text-content h1 span {
+    color: #ff8000; /* Darker orange for name */
+}
+
+.text-animation h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #ffcc00;
+}
+
+.text-content p {
+    font-size: 1.7rem;
+    margin: 1rem 0 2.5rem;
+    max-width: 50rem;
+}
+
+.btn-section {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn {
+    font-size: 1.7rem;
+    background: #ffcc00; /* Yellow button */
+    border: 2px solid #ffcc00;
+    color: #1a1a1a;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    background: #ff8000; /* Darker orange on hover */
+    border-color: #ff8000;
+}
+
+.social-media {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-media i {
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 0.2rem solid #ffcc00; /* Yellow border */
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.social-media i:hover {
+    background: #ff8000; /* Darker orange on hover */
+    border-color: #ff8000;
+}
+
+.skills {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: #ffcc00; /* Yellow accent color */
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill {
+    padding: 1.5rem 3rem;
+    background: #ffcc00; /* Yellow background for skills */
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    color: #1a1a1a; /* Dark gray text */
+    transition: transform .5s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: #ffcc00; /* Yellow accent color */
+}
+
+.section-box {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #ffcc00; /* Yellow border */
+    background-color: #333; /* Darker gray background */
+    transition: transform .5s ease;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.section-box:hover {
+    transform: scale(1.05);
+}
+
+.education {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: #ffcc00; /* Yellow accent color */
+}
+
+.contact {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: #ffcc00; /* Yellow accent color */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #ffcc00; /* Yellow border */
+    background-color: #333; /* Darker gray background */
+    color: #e0e0e0; /* Light gray text */
+    font-size: 1.5rem;
+}
+
+.contact-form input[type="submit"] {
+    background: #ffcc00; /* Yellow button */
+    color: #1a1a1a; /* Dark gray text */
+    cursor: pointer;
+    transition: background .5s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background: #ff8000; /* Darker orange on hover */
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content {
+        margin-bottom: 2rem;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        background: #333;
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+        transition: left 0.3s ease;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 2rem 0;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+}
