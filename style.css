@@ -28,26 +28,26 @@ body {
 
 .logo {
     font-size: 2.9rem;
-    color: #ffcc00; /* Yellow accent color */
+    color: #66D3FA; /* New accent color */
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
     font-size: 1.7rem;
-    color: #ffcc00; /* Yellow accent color */
+    color: #66D3FA; /* New accent color */
     text-decoration: none;
     margin: 0 2.5rem;
     transition: .5s ease;
 }
 
 .navbar a:hover {
-    color: #ff8000; /* Darker orange on hover */
+    color: #4bb3d3; /* Slightly darker shade of new color on hover */
 }
 
 #menu {
     font-size: 3rem;
-    color: #ffcc00;
+    color: #66D3FA; /* New accent color */
     cursor: pointer;
     display: none;
 }
@@ -62,18 +62,18 @@ body {
 
 .text-content h1 {
     font-size: 5rem;
-    color: #ffcc00; /* Yellow accent color */
+    color: #66D3FA; /* New accent color */
     font-weight: 600;
 }
 
 .text-content h1 span {
-    color: #ff8000; /* Darker orange for name */
+    color: #4bb3d3; /* Slightly darker shade of new color for name */
 }
 
 .text-animation h2 {
     font-size: 3.2rem;
     font-weight: 700;
-    color: #ffcc00;
+    color: #66D3FA; /* New accent color */
 }
 
 .text-content p {
@@ -89,8 +89,8 @@ body {
 
 .btn {
     font-size: 1.7rem;
-    background: #ffcc00; /* Yellow button */
-    border: 2px solid #ffcc00;
+    background: #66D3FA; /* New button color */
+    border: 2px solid #66D3FA;
     color: #1a1a1a;
     padding: 1rem 3rem;
     cursor: pointer;
@@ -98,8 +98,8 @@ body {
 }
 
 .btn:hover {
-    background: #ff8000; /* Darker orange on hover */
-    border-color: #ff8000;
+    background: #4bb3d3; /* Slightly darker shade of new color on hover */
+    border-color: #4bb3d3;
 }
 
 .social-media {
@@ -112,15 +112,15 @@ body {
     font-size: 2.5rem;
     padding: 1rem;
     border-radius: 50%;
-    border: 0.2rem solid #ffcc00; /* Yellow border */
+    border: 0.2rem solid #66D3FA; /* New border color */
     background: rgba(255, 255, 255, 0.1);
     cursor: pointer;
     transition: .5s ease;
 }
 
 .social-media i:hover {
-    background: #ff8000; /* Darker orange on hover */
-    border-color: #ff8000;
+    background: #4bb3d3; /* Slightly darker shade of new color on hover */
+    border-color: #4bb3d3;
 }
 
 .skills {
@@ -131,7 +131,7 @@ body {
 .skills h2 {
     font-size: 3.5rem;
     margin-bottom: 3rem;
-    color: #ffcc00; /* Yellow accent color */
+    color: #66D3FA; /* New accent color */
 }
 
 .skills-container {
@@ -143,7 +143,7 @@ body {
 
 .skill {
     padding: 1.5rem 3rem;
-    background: #ffcc00; /* Yellow background for skills */
+    background: #66D3FA; /* New background color for skills */
     border-radius: 0.5rem;
     font-size: 1.6rem;
     color: #1a1a1a; /* Dark gray text */
@@ -162,13 +162,13 @@ body {
 .about h2 {
     font-size: 3.5rem;
     margin-bottom: 3rem;
-    color: #ffcc00; /* Yellow accent color */
+    color: #66D3FA; /* New accent color */
 }
 
 .section-box {
     padding: 2rem;
     border-radius: 0.5rem;
-    border: 2px solid #ffcc00; /* Yellow border */
+    border: 2px solid #66D3FA; /* New border color */
     background-color: #333; /* Darker gray background */
     transition: transform .5s ease;
     max-width: 50rem;
@@ -187,7 +187,7 @@ body {
 .education h2 {
     font-size: 3.5rem;
     margin-bottom: 3rem;
-    color: #ffcc00; /* Yellow accent color */
+    color: #66D3FA; /* New accent color */
 }
 
 .contact {
@@ -198,7 +198,7 @@ body {
 .contact h2 {
     font-size: 3.5rem;
     margin-bottom: 3rem;
-    color: #ffcc00; /* Yellow accent color */
+    color: #66D3FA; /* New accent color */
 }
 
 .contact-form {
@@ -212,21 +212,21 @@ body {
 .contact-form input, .contact-form textarea {
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 2px solid #ffcc00; /* Yellow border */
+    border: 2px solid #66D3FA; /* New border color */
     background-color: #333; /* Darker gray background */
     color: #e0e0e0; /* Light gray text */
     font-size: 1.5rem;
 }
 
 .contact-form input[type="submit"] {
-    background: #ffcc00; /* Yellow button */
+    background: #66D3FA; /* New button color */
     color: #1a1a1a; /* Dark gray text */
     cursor: pointer;
     transition: background .5s ease;
 }
 
 .contact-form input[type="submit"]:hover {
-    background: #ff8000; /* Darker orange on hover */
+    background: #4bb3d3; /* Slightly darker shade of new color on hover */
 }
 
 @media (max-width: 768px) {
